@@ -24,5 +24,10 @@ docker run --rm -it nvim-computer bash
         dest: ~/.oh-my-zsh/plugins/zsh-autosuggestions
     - name: Update ur zshrc
       shell: sed -i 's/(git/(git zsh-autosuggestions' ~/.zshrc
+```
 
+## 05. Install Node Version. Split up Tasks.
+
+```bash
+sudo ansible-pull -U https://github.com/ThePrimeagen/ansible.git
 ```
