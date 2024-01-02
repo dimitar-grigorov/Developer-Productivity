@@ -31,3 +31,10 @@ docker run --rm -it nvim-computer bash
 ```bash
 sudo ansible-pull -U https://github.com/ThePrimeagen/ansible.git
 ```
+
+## 06. Store SSH Auth keys in Ansible Vault
+
+```bash
+ansible-vault encrypt testfile
+ansible-vault decrypt testfile
+```
